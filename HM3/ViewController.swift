@@ -150,8 +150,8 @@ class ViewController: UIViewController {
     }
     
     
-    //MARK: ADDNUM ALERT FUNC
-    func addNumbersAlert(title: String, message: String, prefferedStyle: UIAlertController.Style) {
+     //MARK: ADDNUM ALERT FUNC
+     func addNumbersAlert(title: String, message: String, prefferedStyle: UIAlertController.Style) {
          
          let allert = UIAlertController(title: title, message: message, preferredStyle: prefferedStyle)
          allert.addTextField { textField1 in
