@@ -126,7 +126,7 @@ class ViewController: UIViewController {
        }
     }
     
-    //MARK: WELCOMEALERT FUNC
+     //MARK: WELCOMEALERT FUNC
     func welcomealert() {
         
         let allert = UIAlertController(title: "Welcome!", message: "Enter your name", preferredStyle: .alert)
